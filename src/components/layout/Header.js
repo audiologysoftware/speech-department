@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="header">
       <h3>{labName}</h3>
-      <h3 className="department">Department of Speech Pathology</h3>
+      <h3 className="department">Department of Speech Language Pathology</h3>
     </header>
   );
 }

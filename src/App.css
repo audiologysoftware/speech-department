@@ -63,7 +63,29 @@ padding: 20px;
 padding-left: 20px;
 }
 
-.titleBold{
-font-weight: bold;
+
+/* Member Details Container */
+.member-details {
+  display: flex;
+  flex-direction: column; /* Stack member cards vertically */
+  gap: 1rem; /* Add space between member cards */
+  padding: 1rem; /* Padding around the container */
 }
+
+/* Individual Member Card */
+.member-card {
+  background-color: #f9f9f9; /* Light background for cards */
+  border: 1px solid #ddd; /* Light border around cards */
+  border-radius: 5px; /* Rounded corners */
+  padding: 1rem; /* Padding inside cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  line-height: 30%;
+}
+
+/* Title Bold Class */
+.titleBold {
+  font-weight: bold; /* Make title text bold */
+  margin-bottom: 0.5rem; /* Space below the title */
+}
+
 

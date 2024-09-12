@@ -3,14 +3,14 @@
         {
             "about": "The department focuses on the assessment, diagnosis, and treatment of communication disorders, including speech, language, voice, and swallowing difficulties. This field is essential for helping individuals overcome challenges related to speech production, language comprehension and expression, social communication, and cognitive-communication disorders. The department also promotes rigorous research activities focusing on emerging areas like dysphagia, bilingualism, and the genetic basis of speech and language disorders and encourages students and faculty to contribute to the body of evidence-based practices and to innovate in clinical methodologies. The department of speech-language pathology intends to establish a strong research ethos where students and faculty collaborate on high-impact projects that advance knowledge in SLP and contribute to the global scientific community. The department fosters research that explores the integration of emerging technologies like artificial intelligence and machine learning into speech-language pathology, prioritizes translational research that bridges the gap between laboratory findings and clinical practice, ensuring that discoveries lead to improved patient outcomes. Fosters collaboration with other healthcare disciplines, such as audiology, occupational therapy, ENT, pediatrics, nursing, neurology, and psychology, to provide holistic care and innovative treatment strategies. Aims to develop programs that address global speech and language health disparities, including international collaborations and research focused on underrepresented populations. Implements community-based programs that increase awareness and accessibility of SLP services, particularly in underserved areas",
             "objectives": [
-                "Equip students with advanced diagnostic and therapeutic skills, including proficiency in using the latest tools and technologies. Provide hands-on experience in diverse clinical settings, from hospitals to community centers.",
-                "Create a specialized research center within the department that focuses on cutting-edge areas like neurophysiology, speech and language disorders, dysphagia, bilingual language development, and neuroplasticity in speech therapy.",
-                "Develop comprehensive research training programs that equip students with advanced skills in experimental design, data analysis, and grant writing, preparing them for careers as independent researchers.",
-                "Encourage students to engage in collaborative research projects with faculty, other departments, and international institutions, with a focus on producing publishable work in high-impact journals.",
-                "Focus on research that explores and validates new therapeutic approaches, such as virtual reality in therapy, telehealth interventions, and biofeedback mechanisms in speech therapy.",
-                "Instill a strong sense of ethics and professionalism in students, ensuring they adhere to the highest standards of practice.",
-                "Train students in telepractice, ensuring they can effectively deliver services remotely, an essential skill in today’s healthcare landscape.",
-                "Develop global health research initiatives that examine speech and language disorders in underserved populations, contributing to a better understanding of these issues on a global scale. Promote involvement in community outreach programs, enabling students to gain real-world experience while serving those in need."
+                "1. Equip students with advanced diagnostic and therapeutic skills, including proficiency in using the latest tools and technologies. Provide hands-on experience in diverse clinical settings, from hospitals to community centers.",
+                "2. Create a specialized research center within the department that focuses on cutting-edge areas like neurophysiology, speech and language disorders, dysphagia, bilingual language development, and neuroplasticity in speech therapy.",
+                "3. Develop comprehensive research training programs that equip students with advanced skills in experimental design, data analysis, and grant writing, preparing them for careers as independent researchers.",
+                "4. Encourage students to engage in collaborative research projects with faculty, other departments, and international institutions, with a focus on producing publishable work in high-impact journals.",
+                "5. Focus on research that explores and validates new therapeutic approaches, such as virtual reality in therapy, telehealth interventions, and biofeedback mechanisms in speech therapy.",
+                "6. Instill a strong sense of ethics and professionalism in students, ensuring they adhere to the highest standards of practice.",
+                "7. Train students in telepractice, ensuring they can effectively deliver services remotely, an essential skill in today’s healthcare landscape.",
+                "8. Develop global health research initiatives that examine speech and language disorders in underserved populations, contributing to a better understanding of these issues on a global scale. Promote involvement in community outreach programs, enabling students to gain real-world experience while serving those in need."
             ],
             
        
@@ -47,10 +47,12 @@
                 }
             ],
             "images": [
-                "../assest/hemanth.jpg",
-                "../assest/suma.jpg",
-                "../assest/hemanth.jpg",
-                "../assest/suma.jpg"
+                "../assest/speech.jpg",
+                "../assest/speech1.jpg",
+                "../assest/speech2.jpg",
+                "../assest/speech3.jpg",
+                "../assest/speech4.jpg",
+                "../assest/speech5.jpg"
             ]
         },
         {

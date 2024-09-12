@@ -60,9 +60,9 @@ function LandingPage() {
                 {members && members.length > 0 && (
                     <>
                         <h2>{current === 1 ? 'Faculties' : 'Members'}</h2>
-                        <div>
+                        <div className="member-details">
                             {members.map((member, index) => (
-                                <div key={index}>
+                                <div key={index} className="member-card">
                                     <p className='titleBold'>{member.name}</p>
                                     <p>{member.designation}</p>
                                     <p>{member.address}</p>

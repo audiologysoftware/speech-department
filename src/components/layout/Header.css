@@ -1,23 +1,39 @@
+/* Header.css */
 
 .header {
-    background-color:lightblue;
-    color: black;
-    padding: 5px;  
-    display: flex;
-    width: 100%;
-    height: 15px;
-     
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem; /* Adjust padding as needed */
-  
+  background-color: lightblue;
+  color: black;
+  padding: 1rem; /* Adjust padding as needed */
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space between the left and right items */
+  width: 100%;
+  position: relative; /* Set position to relative for potential child positioning */
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.header .department {
+  margin: 0;
+  font-size: 1rem;
+  margin-right: 30px; /* Adjust margin to ensure spacing from the right edge */
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    padding: 0.5rem; /* Adjust padding for smaller screens */
   }
-  
-  
-  @media screen and (max-width:768px) {
-    .header {
-        font-size: 10px;
-    }
-  
+
+  .header h3 {
+    font-size: 1.2rem; /* Adjust font size for h3 on smaller screens */
   }
-  
+
+  .header .department {
+    font-size: 0.8rem; /* Adjust font size for department name on smaller screens */
+    margin-right: 20px; /* Adjust margin for smaller screens */
+  }
+}

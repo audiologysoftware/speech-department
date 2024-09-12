@@ -14,8 +14,8 @@
     padding: 10px;
     line-height: 30px;
     flex: 1; /* Take remaining space next to the sidebar */
-    max-height: 100vh; /* Full height of the viewport */
-    overflow: auto; /* Enable scrolling */
+    max-height: 85vh; /* Full height of the viewport */
+   /* Enable scrolling */
   }
   
   

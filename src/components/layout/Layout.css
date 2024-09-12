@@ -1,0 +1,136 @@
+.layout{
+    display: flex;
+    max-width: 100vw;
+}
+p {
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+body {
+    overflow: hidden; 
+  }
+  
+  .content {
+ 
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+  }
+  
+  
+  .content::-webkit-scrollbar {
+    width: 0;
+  }
+
+  
+  .menu{
+    width: 35px;
+    height:35px;
+    background-color: red;
+  }
+
+  .menu img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+ 
+@media screen and (min-width:768px) {
+  .menu{
+    display: none;
+  }
+
+}
+
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto; /* Allow sidebar to scroll */
+    height: 100vh; /* Ensure sidebar takes full height of viewport */
+}
+
+.logo {
+    margin: 20px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-item:hover {
+    background-color: #555;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-content {
+    padding-left: 20px;
+}
+
+.sidebar-item .plain {
+    text-decoration: none;
+    color: white;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.sidebar-item.open {
+    background-color: #555;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; /* Allow main content to scroll */
+}
+
+/* Styling for members section */
+.member-container {
+    margin-top: 20px;
+}
+
+.member-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.member-item h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.member-item p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Optional: Add hover effect */
+.member-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media query for responsive layout */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sidebar on top of main content on small screens */
+    }
+}

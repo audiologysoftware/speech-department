@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    overflow: auto; 
+    width:100%;
+   
+}
+
+
+
+
+  .body {
+    padding: 10px;
+    line-height: 30px;
+    flex: 1; /* Take remaining space next to the sidebar */
+    max-height: 100vh; /* Full height of the viewport */
+    overflow: auto; /* Enable scrolling */
+  }
+  
+  
+
+  
+ 

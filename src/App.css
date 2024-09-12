@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-menu {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sub-menu .nav-item {
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.bi {
+  margin-right: 5px;
+}
+/* People.css */
+
+/* Overall container */
+.container {
+max-width: 800px;
+margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Table styling */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
 }
+
+table th {
+
+padding: 50px;
+text-align: left;
+}
+
+table td {
+border: 1px solid #ddd;
+padding: 10px;
+width: 100px;
+}
+
+/* Advisor, External Advisor, Members container */
+.section-container {
+margin-bottom: 80px;
+
+}
+
+/* Faculty container */
+.faculty {
+display: flex;
+align-items: center;
+border: 51px solid #ccc;
+padding: 20px;
+}
+.h4{
+padding-left: 20px;
+}
+
+.titleBold{
+font-weight: bold;
+}
+

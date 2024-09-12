@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Autism Spectrum Disorder Clinic",
+        "icon": "bi-gear-fill",
+        "position": 1,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Tele Rehabilitation Clinic",
+        "icon": "bi-gear-fill",
+        "position": 2,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Fluency Clinic",
+        "icon": "bi-gear-fill",
+        "position": 3,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Voice Clinic",
+        "icon": "bi-gear-fill",
+        "position": 4,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Swallow Clinic",
+        "icon": "bi-gear-fill",
+        "position": 5,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Aphasia Clinic",
+        "icon": "bi-gear-fill",
+        "position": 6,
+        "path": "/",
+        "childrens": []
+    },
+    {
+        "title": "Adult Motor Speech Disorder Unit",
+        "icon": "bi-gear-fill",
+        "position": 7,
+        "path": "/",
+        "childrens": []
+    }
+]

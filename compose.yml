@@ -1,0 +1,12 @@
+services: 
+ speech-department: 
+  build: .
+  container_name: speech-department
+  ports: 
+   - "3003:3003"
+  networks:
+   - jssish-network
+
+networks:
+  jssish-network: {}
+
